@@ -1,0 +1,16 @@
+image: icetekio/nodeinfo:multiarch
+manifests:
+  - image: icetekio/nodeinfo:multiarch-amd64
+    platform:
+      architecture: amd64
+      os: linux
+
+  - image: icetekio/nodeinfo:multiarch-arm32
+    platform:
+      architecture: arm
+      os: linux
+
+  - image: icetekio/nodeinfo:multiarch-arm64
+    platform:
+      architecture: arm64
+      os: linux
